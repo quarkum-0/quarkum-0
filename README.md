@@ -22,13 +22,11 @@
 
 - 💬 Ask me about **Next.js, React.js, Python, React, TS dev**
 
-- 📫 How to reach me **shrishk.work@gmail.com**
-
-**⚡ Fun fact:** I can code without coffee, but why risk it? ☕
+- 📫 How to reach me: [shrishk.work@gmail.com](mailto:shrishk.work@gmail.com)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://linkedin.com/in/shrish-kumar" target="blank">
+  <a href="https://linkedin.com/in/shrish-kumar" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shrish-kumar" height="30" width="40" />
   </a>
 </p>
@@ -117,13 +115,13 @@
 </p>
 
 <p align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=your_spotify_user_id&cover_image=true&theme=default&bar_color=53b14f&bar_color_cover=true" alt="Spotify Now Playing" />
+  <img src="https://spotify-github-profile.vercel.app/api/view?uid=31bb5djamwrzhungaezdqdwvywrq&cover_image=true&theme=default&bar_color=53b14f&bar_color_cover=true" alt="Spotify Now Playing" />
 </p>
 
 <p align="center">
-  ![Snake animation](https://github.com/quarkum-0/quarkum-0/blob/output/github-contribution-grid-snake.svg)
+  <img src="https://github.com/quarkum-0/quarkum-0/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
 </p>
 
 <p align="center">
-  ![Shrish's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=quarkum-0&theme=github)
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=quarkum-0&theme=github" alt="Shrish's github activity graph"/>
 </p>
