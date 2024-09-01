@@ -70,9 +70,9 @@
 
 <img src="https://raw.githubusercontent.com/quarkum-0/quarkum-0/output/snake.svg" alt="Snake animation" />
 
-## 🎵 Music I'm Vibing To
+## 🎧 Music I'm Vibing To
 
-[![Spotify](https://spotify-quarkum.vercel.app/api/spotify)](https://open.spotify.com/user/31bb5djamwrzhungaezdqdwvywrq)
+[<img src="https://spotify-quarkum.vercel.app/api/spotify-playing" alt="Spotify Now Playing" width="350" />](https://open.spotify.com/user/31bb5djamwrzhungaezdqdwvywrq)
 
 ---
 
