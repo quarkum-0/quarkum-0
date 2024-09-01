@@ -14,17 +14,22 @@ jobs:
       # Checks out the repository
       - uses: actions/checkout@v3
 
-      # Generates the snake  
+      # Generate the snake GIF and SVG
       - uses: Platane/snk@v3
-        id: snake-gif
+        id: snake
         with:
           github_user_name: quarkum-0
-          # Generate files in the `dist` directory
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+        # gif_out_path: dist/github-contribution-grid-snake.gif
+        # svg_out_path: dist/github-contribution-grid-snake.svg
 
       # Create the `dist` directory if it does not exist
       - run: mkdir -p dist
+
+      # Move generated files to the `dist` directory
+      - run: |
+          mv snake.gif dist/github-contribution-grid-snake.gif
+          mv snake.svg dist/github-contribution-grid-snake.svg
 
       # Check out the `output` branch
       - name: Checkout Output Branch
