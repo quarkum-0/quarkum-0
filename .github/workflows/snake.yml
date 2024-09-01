@@ -14,19 +14,25 @@ jobs:
         with:
           github_user_name: quarkum-0
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      - run: mkdir -p dist
+      - name: Create 'dist' directory
+        run: mkdir -p dist  # Ensure dist directory exists
+
+      # Move generated files (handle potential missing files)
       - run: |
-          mv snake.gif dist/github-contribution-grid-snake.gif || echo "snake.gif not found"
-          mv snake.svg dist/github-contribution-grid-snake.svg || echo "snake.svg not found"
-      - name: Checkout Output Branch
+          mv snake.gif dist/github-contribution-grid-snake.gif || true  # Silently ignore if missing
+          mv snake.svg dist/github-contribution-grid-snake.svg || true  # Silently ignore if missing
+
+      # Checkout or create 'output' branch
+      - name: Checkout or Create Output Branch
         run: |
-          git fetch origin output || git checkout -b output
+          git fetch origin output || git checkout -b output  # Create branch if it doesn't exist
           git checkout output
-      - name: Commit and Push Changes
+
+      - name: Commit and Push Changes (if any)
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add dist/github-contribution-grid-snake.gif dist/github-contribution-grid-snake.svg
+          git add dist/*  # Add all files in 'dist' directory
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
