@@ -1,45 +1,31 @@
-name: Generate Snakeon
+name: Generate snake animation
+
 on:
-  schedule:
+  schedule: #every 12 hours
     - cron: "0 */12 * * *"
+
   workflow_dispatch:
+  
+  push:
+    branches:
+      - master
+
 jobs:
-  build:
+  generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      - uses: actions/checkout@v4  # Updated to v4
-      - uses: Platane/snk@v3
-        id: snake
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: quarkum-0
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Create 'dist' directory
-        run: mkdir -p dist  # Ensure dist directory exists
+          github_user_name: "quarkum-0"
+          outputs: dist/snake.svg?palette=github-dark
 
-      # Move generated files (handle potential missing files)
-      - run: |
-          mv snake.gif dist/github-contribution-grid-snake.gif || true  # Silently ignore if missing
-          mv snake.svg dist/github-contribution-grid-snake.svg || true  # Silently ignore if missing
-
-      # Checkout or create 'output' branch
-      - name: Checkout or Create Output Branch
-        run: |
-          git fetch origin output || git checkout -b output  # Create branch if it doesn't exist
-          git checkout output
-
-      - name: Commit and Push Changes (if any)
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add dist/*  # Add all files in 'dist' directory
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update contribution graph"
-            git push origin output
-          fi
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: push snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
