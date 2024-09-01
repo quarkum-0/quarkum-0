@@ -1,43 +1,27 @@
-name: Generate Snake
-
+name: Generate Snakeon
 on:
   schedule:
-    # every 12 hours
     - cron: "0 */12 * * *"
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks out the repository
-      - uses: actions/checkout@v3
-
-      # Generate the snake GIF and SVG
+      - uses: actions/checkout@v4  # Updated to v4
       - uses: Platane/snk@v3
         id: snake
         with:
           github_user_name: quarkum-0
           github_token: ${{ secrets.GITHUB_TOKEN }}
-        # gif_out_path: dist/github-contribution-grid-snake.gif
-        # svg_out_path: dist/github-contribution-grid-snake.svg
-
-      # Create the `dist` directory if it does not exist
       - run: mkdir -p dist
-
-      # Move generated files to the `dist` directory
       - run: |
-          mv snake.gif dist/github-contribution-grid-snake.gif
-          mv snake.svg dist/github-contribution-grid-snake.svg
-
-      # Check out the `output` branch
+          mv snake.gif dist/github-contribution-grid-snake.gif || echo "snake.gif not found"
+          mv snake.svg dist/github-contribution-grid-snake.svg || echo "snake.svg not found"
       - name: Checkout Output Branch
         run: |
           git fetch origin output || git checkout -b output
           git checkout output
-
-      # Commit and push changes to `output` branch
       - name: Commit and Push Changes
         run: |
           git config user.name "github-actions"
@@ -49,10 +33,6 @@ jobs:
             git commit -m "Update contribution graph"
             git push origin output
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Deploy the content to GitHub Pages
       - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
           target_branch: output
