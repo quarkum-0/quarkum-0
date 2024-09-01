@@ -14,7 +14,7 @@
 
 - 🔭 I'm currently working on the [frontend for Assess4all website](https://www.assess4all.com/)
 - 🌱 I'm currently learning **Machine Learning, Web Frameworks, DevOps**
-- 💬 Ask me about **Next.js, React.js, Python, React, TypeScript development**
+- 💬 Ask me about **Next.js, React.js, Python, Vector Databases, RAG, TypeScript development**
 - 📫 How to reach me: [shrishk.work@gmail.com](mailto:shrishk.work@gmail.com)
 - 🚀 Always eager to collaborate on interesting projects
 
