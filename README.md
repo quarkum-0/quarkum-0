@@ -68,7 +68,7 @@
 
 ## 🐍 Contribution Graph
 
-![Snake animation](https://raw.githubusercontent.com/quarkum-0/quarkum-0/output/snake.svg)
+![snake gif](https://github.com/quarkum-0/quarkum-0/blob/output/github-contribution-grid-snake.gif)
 
 ---
 
