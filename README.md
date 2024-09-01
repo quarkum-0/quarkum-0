@@ -72,7 +72,7 @@
 
 ## 🎧 Music I'm Vibing To
 
-[<img src="https://spotify-quarkum.vercel.app/api/spotify-playing" alt="Spotify Now Playing" width="350" />](https://open.spotify.com/user/31bb5djamwrzhungaezdqdwvywrq)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31bb5djamwrzhungaezdqdwvywrq&cover_image=true&theme=natemoo-re&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=31bb5djamwrzhungaezdqdwvywrq&redirect=true)
 
 ---
 
