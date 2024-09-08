@@ -2,13 +2,13 @@
 
 ## A CS undergraduate from BITS Pilani, India
 
-![Profile Views](https://komarev.com/ghpvc/?username=quarkum-0&label=Profile%20views&color=0e75b6&style=flat)
+![Profile Views](https://komarev.com/ghpvc/?username=imshrishk&label=Profile%20views&color=0e75b6&style=flat)
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=435&lines=Full-stack+Developer;Open-Source+Contributor;Tech+Enthusiast" alt="Typing SVG" />
 </p>
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=quarkum-0&theme=onedark&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=imshrishk&theme=onedark&row=1)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## 👨‍💻 About Me
 
@@ -21,7 +21,7 @@
 ## 🤝 Connect with me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shrish-kumar)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/quarkum-0)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/imshrishk)
 
 ## 🛠️ Languages and Tools
 
@@ -55,24 +55,24 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=quarkum-0&theme=dark" alt="quarkum-0's GitHub streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=imshrishk&theme=dark" alt="imshrishk's GitHub streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=quarkum-0&show_icons=true&theme=dark" alt="quarkum-0's GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=imshrishk&show_icons=true&theme=dark" alt="imshrishk's GitHub stats"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=quarkum-0&layout=compact&theme=dark" alt="quarkum-0's top languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imshrishk&layout=compact&theme=dark" alt="imshrishk's top languages"/>
 </p>
 
 ## 📈 GitHub Activity Graph
 
-[![Shrish's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=quarkum-0&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Shrish's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=imshrishk&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ## 🐍 Contribution Graph
 
-<img src="https://raw.githubusercontent.com/quarkum-0/quarkum-0/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/imshrishk/imshrishk/output/snake.svg" alt="Snake animation" />
 
 ## 🎧 Music I'm Vibing To
 
